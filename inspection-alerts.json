@@ -1,0 +1,68 @@
+[
+  {
+    "alert_id": 1000,
+    "alert_customer_id": 1,
+    "alert_source": "Synthetic",
+    "alert_source_ref": "fixture-bootstrap",
+    "alert_title": "Synthetic bootstrap alert",
+    "alert_description": "Synthetic fixture for regression tests.",
+    "alert_source_event_time": "2026-09-25T12:00:00Z",
+    "alert_creation_time": "2026-09-25T12:00:05Z",
+    "alert_severity_id": 3,
+    "cases": [],
+    "alert_source_content": {
+      "sid": "fixture-bootstrap",
+      "result": {
+        "event_type": "brute_force",
+        "dest_host": "server01",
+        "src_ip": "203.0.113.10",
+        "user": "alice",
+        "failed_count": 12
+      }
+    }
+  },
+  {
+    "alert_id": 1001,
+    "alert_customer_id": 1,
+    "alert_source": "Synthetic",
+    "alert_source_ref": "duplicate-fixture",
+    "alert_title": "Synthetic duplicate alert",
+    "alert_description": "Synthetic duplicate fixture for fingerprint tests.",
+    "alert_source_event_time": "2026-09-25T12:01:00Z",
+    "alert_creation_time": "2026-09-25T12:01:05Z",
+    "alert_severity_id": 3,
+    "cases": [],
+    "alert_source_content": {
+      "sid": "duplicate-fixture",
+      "result": {
+        "event_type": "successful_login",
+        "dest_host": "server01",
+        "src_ip": "203.0.113.10",
+        "user": "alice",
+        "session_id": "fixture-session"
+      }
+    }
+  },
+  {
+    "alert_id": 1002,
+    "alert_customer_id": 1,
+    "alert_source": "Synthetic",
+    "alert_source_ref": "duplicate-fixture",
+    "alert_title": "Synthetic duplicate alert",
+    "alert_description": "Synthetic duplicate fixture for fingerprint tests.",
+    "alert_source_event_time": "2026-09-25T12:01:00Z",
+    "alert_creation_time": "2026-09-25T12:01:06Z",
+    "alert_severity_id": 3,
+    "cases": [],
+    "alert_source_content": {
+      "sid": "duplicate-fixture",
+      "result": {
+        "event_type": "successful_login",
+        "dest_host": "server01",
+        "src_ip": "203.0.113.10",
+        "user": "alice",
+        "session_id": "fixture-session"
+      }
+    }
+  }
+]
